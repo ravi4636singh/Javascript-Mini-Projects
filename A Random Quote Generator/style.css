@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Akaya+Telivigala&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Festive&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+section .wrapper{
+    font-family: 'Akaya Telivigala', cursive;
+    width: 40%;
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    background-color: #00b4d8;
+    border-radius: 7px;
+}
+
+.heading h2{
+    font-family: 'Festive', cursive;
+    border-radius: 7px;
+    color: #023e8a;
+    background-color: #0077b6;
+    text-align: center;
+    font-weight: bolder;
+    font-size: 1.9rem;
+    padding: .2rem 0;
+}
+
+.quote p{
+    height: 60vh;
+    color: #03045e;
+    line-height: 1.1;
+    font-size: 1.7rem;
+    overflow-y: auto;
+    text-align: center;
+    padding: .7rem .4rem;
+}
+
+.new-quote-btn{
+    font-size: 1.2rem;
+    font-family: 'Akaya Telivigala', cursive;
+    padding: .4rem 0;
+    border: none;
+    cursor: pointer;
+    border-radius: 7px;
+    margin: .8rem 1.2rem;
+    background-color: #023e8a;
+    transition: all .3s ease;
+    color: white;
+}
+
+.new-quote-btn:hover{
+    background-color: #022758;
+}
+
+@media (max-width: 600px){
+    section{
+        display: block;
+    }
+
+    section .wrapper{
+        width: 100vw;
+        border-radius: 0px;
+    }
+
+    .heading h2{
+        border-radius: 0px;
+        font-size: 2.8rem;
+        padding: .3rem 0;
+    
+    }
+
+    .quote p{
+        height: 83vh;
+        font-size: 2.1rem;
+    }
+
+    .new-quote-btn{
+        font-size: 2.2rem;
+        padding: .6rem 0;
+        margin: 1.2rem 1.2rem;
+    }
+}
