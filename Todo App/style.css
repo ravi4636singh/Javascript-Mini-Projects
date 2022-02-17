@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+section{
+    display: flex;
+    justify-content: center;
+    margin-top: 1%;
+}
+
+.main{
+    background-color: #395B64;
+    height: 95vh;
+    width: 40%;
+    padding: .8rem 1.1rem;
+    border-radius: 6px;
+    overflow-y: auto;
+}
+
+.input-area{
+    background-color: #2C3333;
+    display: flex;
+    justify-content: space-between;
+    padding: .5rem;
+    border-radius: 30px;
+}
+
+.input-area .input{
+    font-family: 'Oxygen', sans-serif;
+    width: 100%;
+    font-size: 1.6rem;
+    padding: 0.2rem 0.3rem;
+    padding-right: .5rem;
+    outline: none;
+    border: none;
+    background-color: #2C3333;
+    color: white;
+}
+
+.input-area .btn{
+    background-color: #2666CF;
+    color: #F5F2E7;
+    font-size: 1.8rem;
+    border: 2px solid #F5F2E7;
+    border-radius: 30px;
+    padding: 0.2rem 0.7rem;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.input-area .btn:hover{
+    background-color: #F5F2E7;
+    color: #2666CF;
+    border: 2px solid #2666CF;
+}
+
+
+.item{
+    background-color: #191A19;
+    display: flex;
+    flex-direction: column;
+    border-radius: 8px;
+    padding: .4rem .4rem;
+    margin: .8rem 0;
+}
+
+.item .content{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.4rem;
+    color: #F5F2E7;
+    padding: .3rem .1rem;
+    margin: .8rem 0;
+}
+
+.item .delete-btn{
+    font-family: 'Oxygen', sans-serif;
+    font-size: 1.2rem;
+    background-color: #FF0000;
+    border: 2px solid #FF0000;
+    padding: .3rem 0;
+    border-radius: 4px;
+    margin: 0.2rem 0;
+    color: #F5F2E7;
+    cursor: pointer;
+    transition: all .3s ease-in-out;
+}
+
+.item .delete-btn:hover{
+    background-color: #950101;
+    border: 2px solid #950101;
+}
+
